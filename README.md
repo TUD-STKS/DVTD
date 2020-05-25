@@ -13,5 +13,5 @@ Simply download or clone the files from the repository and **move them to their 
 
 ## File description
 - ``display_data.m``: Script to display the measured and simulated transfer functions of all models (MATLAB version)
-- ``display_data.py``: Script to display the measured and simulated transfer functions of all models (Python version)
+- ``display_data.py``: Script to display the measured and simulated transfer functions of all models (Python 3 version)
 
