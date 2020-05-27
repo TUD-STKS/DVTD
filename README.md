@@ -14,8 +14,8 @@ Simply download or clone the files from the repository and **move them to their 
 ## File description
 - ``display_data.m``: Script to display the measured and simulated transfer functions of all models (MATLAB version)
 - ``display_data.py``: Script to display the measured and simulated transfer functions of all models (Python 3 version)
-- ``definitions.py``: Definition of subject and model name (strictly dependent to the paths in the DVTD folder!)
+- ``definitions.py``: Definition of subject and model name (strictly dependent on the paths in the DVTD folder!)
 - ``fem_run.py``: Solving the Helmholtz equation with FEniCS
-- ``model_names.py``: Subject and model IDs (strictly dependent to the paths in the DVTD folder!)
+- ``model_names.py``: Subject and model IDs (strictly dependent on the paths in the DVTD folder!)
 - ``modules.py``: Modules called by ``fem_rum.py``
 - ``to_h5_model.py``: Converts a FEniCS-Model from ``*.xml`` to ``*.h5``
