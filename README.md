@@ -6,7 +6,7 @@ The scripts in this repository are supplemental code to the [Dresden Vocal Tract
 ## Requirements
 For the MATLAB scripts, you theoretically need the Bioinformatics Toolbox. However, only the helper function suptitle() in line 232 is not a built-in function, so if you do not own that Toolbox you can comment that line out and should be fine.
 
-The Python scripts were written using Python 3. To run ``display_data.py``, you will only need numpy and matplotlib. To perform FEM simulations, please refer to the installation instructions in the paper Birkholz *et al.*: "Printable 3D vocal tract shapes from MRI data and their acoustic and aerodynamic properties." 
+The Python scripts were written using Python 3. To run ``display_data.py``, you will only need numpy and matplotlib. To perform FEM simulations, please refer to the installation instructions in the paper [1].
 
 ## Installing
 Simply download or clone the files from the repository and **move them to their own subfolder in the DVTD directory** (e.g., ``DVTD/misc``). If the scripts are not run from a subfolder of the DVTD at the same depth as the subject data, you will get "file not found" errors and need to either adjust the path to the subject data in the scripts or move the scripts to the correct location. 
@@ -19,3 +19,10 @@ Simply download or clone the files from the repository and **move them to their 
 - ``model_names.py``: Subject and model IDs (strictly dependent on the paths in the DVTD folder!)
 - ``modules.py``: Modules called by ``fem_run.py``
 - ``to_h5_model.py``: Converts a FEniCS model from ``*.xml`` to ``*.h5``
+
+## Running the scripts
+All scripts must be run from a subfolder of the DVTD main folder (e.g. ``DVTD/misc``)!
+To run the ``display_data.*`` scripts, just execute them as normal and follow the Command Window (MATLAB) or terminal (Python) instructions.
+To run the simulations, please refer to the instructions in the accompanying paper [1]. 
+
+[1] Birkholz *et al.*: "Printable 3D vocal tract shapes from MRI data and their acoustic and aerodynamic properties." 
