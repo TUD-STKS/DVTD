@@ -18,4 +18,4 @@ Simply download or clone the files from the repository and **move them to their 
 - ``fem_run.py``: Solving the Helmholtz equation with FEniCS
 - ``model_names.py``: Subject and model IDs (strictly dependent on the paths in the DVTD folder!)
 - ``modules.py``: Modules called by ``fem_rum.py``
-- ``to_h5_model.py``: Converts a FEniCS-Model from ``*.xml`` to ``*.h5``
+- ``to_h5_module.py``: Converts a FEniCS-Model from ``*.xml`` to ``*.h5``
