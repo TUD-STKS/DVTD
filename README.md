@@ -9,7 +9,7 @@ For the MATLAB scripts, you theoretically need the Bioinformatics Toolbox. Howev
 The Python scripts were written using Python 3. To run ``display_data.py``, you will only need numpy and matplotlib. To perform FEM simulations, please refer to the installation instructions in the paper [1].
 
 ## Installing
-Simply download or clone the files from the repository and **move them to their own subfolder in the DVTD directory** (e.g., ``DVTD/misc``). If the scripts are not run from a subfolder of the DVTD at the same depth as the subject data, you will get "file not found" errors and need to either adjust the path to the subject data in the scripts or move the scripts to the correct location. 
+Simply download or clone the files from the repository and **move them to their own subfolder in the DVTD directory** (e.g., ``DVTD/misc``). If the scripts are not run from a subfolder of the DVTD at the same depth as the subject data, you will get "file not found" errors and need to either adjust the path to the subject data in the scripts or move the scripts to the correct location (strongly recommended). 
 
 ## File description
 - ``display_data.m``: Script to display the measured and simulated transfer functions of all models (MATLAB version)
