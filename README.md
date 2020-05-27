@@ -17,5 +17,5 @@ Simply download or clone the files from the repository and **move them to their 
 - ``definitions.py``: Definition of subject and model name (strictly dependent on the paths in the DVTD folder!)
 - ``fem_run.py``: Solving the Helmholtz equation with FEniCS
 - ``model_names.py``: Subject and model IDs (strictly dependent on the paths in the DVTD folder!)
-- ``modules.py``: Modules called by ``fem_rum.py``
+- ``modules.py``: Modules called by ``fem_run.py``
 - ``to_h5_model.py``: Converts a FEniCS model from ``*.xml`` to ``*.h5``
